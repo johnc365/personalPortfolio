@@ -1,9 +1,7 @@
-import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import NavTabs from './components/navTabs'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -15,7 +13,11 @@ function App() {
         <Outlet />
       </main>
       <footer>
-        {/* {links to github linkedin and a third platform} */}
+        GitHub link <a href='https://github.com/johnc365' target='_blank'>here</a>
+        <br></br>
+        LinkedIn link <a href='https://www.linkedin.com/in/john-caldwell-376223336/' target='_blank'>here</a>
+        <br></br>
+        stackoverflow link <a href='' target='_blank'>here</a>
       </footer>
 
     </>
