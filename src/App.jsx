@@ -15,7 +15,7 @@ function App() {
         <Outlet />
       </main>
       <footer>
-      {/* {links to github linkedin and a third platform} */}
+        {/* {links to github linkedin and a third platform} */}
       </footer>
 
     </>
