@@ -1,13 +1,21 @@
-//Portfolio needs titled images(screenshots) of six applications or placeholders with links to the deployed apps and the corresponding github repos
-// make a readme
-// bootstrap styles
-export default function PortfolioPage() {
+export default function PortfolioPage(props) {
     return (
-        <div>
-            <h1>Portfolio</h1>
-            <p>
-                Create cards
-            </p>
-        </div>
+        <ul>
+            {
+                props.projectData.map(item => (
+                    <li key={item.id} className="mb-4">
+                        <div className="card text-bg-dark">
+                            <img className="card-img" src={item.image} alt={item.name}></img>
+                            <div className="card-img-overlay">
+                                <h5 className="card-title">{item.name}</h5>
+                                <p className="card-text">
+                                    <a href={item.githubUrl} target="_blank">View Here</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                ))
+            }
+        </ul>
     );
 }
