@@ -7,6 +7,7 @@ import PortfolioPage from './pages/portfolioPage.jsx'
 import ContactPage from './pages/contactPage.jsx'
 import ResumePage from './pages/resumePage.jsx'
 import projectData from './projectData.jsx'
+// import 'bootstrap'
 
 const router = createBrowserRouter([
   {

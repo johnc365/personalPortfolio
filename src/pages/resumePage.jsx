@@ -3,7 +3,7 @@ export default function ResumePage() {
         <div>
             <h1>Resume</h1>
             <p>
-                Download my resume <a href="https://drive.google.com/file/d/1sZkFmsoT-QtOrHSljhL06ZBApnO-uMWW/uc?export=download" target="_blank" rel="noopener noreferrer">here</a>
+                Download my resume <a href="/Business_Resume.docx.pdf" download>here</a>
                 <br></br>
                 Tragically, I am proficient in nothing.
             </p>
